@@ -17,7 +17,7 @@ function Header() {
                     <li className='font-semibold hover:text-green-500'><Link to='/register'>Register</Link></li>
                     </ul>
                 </div>
-                <Link className="btn btn-ghost normal-case text-white text-2xl">groce<span className='text-green-500'>Bari</span></Link>
+                <Link to='/' className="btn btn-ghost normal-case text-white text-2xl">groce<span className='text-green-500'>Bari</span></Link>
             </div>
             <div className='navbar-center lg:mr-32 mr-0'>
             <input type="text" placeholder="Search" className="input input-bordered input-sm w-[180px] lg:w-[350px] max-w-sm" />

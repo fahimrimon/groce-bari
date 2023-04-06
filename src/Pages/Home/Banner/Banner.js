@@ -5,7 +5,7 @@ import './Banner.css';
 function Banner() {
   return (
     <>
-      <div className="hero lg:h-[80vh] h-screen bg-yellow-100 relative z-10 mt-12">
+      <div className="hero lg:h-[80vh] sm:h-screen bg-yellow-100 relative z-10 mt-12">
         <div className="hero-content flex-col lg:flex-row">
         <div className='font-hairline mt-12 lg:mt-0'>
       <h3 className="text-7xl font-serif pt-2 pb-6" data-aos="fade-up"
@@ -17,9 +17,7 @@ function Banner() {
       <button data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom"  data-aos-duration="3000" className="btn bg-green-500 rounded-full hover:bg-yellow-100 border border-lime-500 hover:text-black px-7 ">Shop Now</button>
     </div>
-       <div className='h-[60vh] shrink-0'>
-       <img src={banner} className="h-full" alt=''/>
-       </div>
+       <img src={banner} className="lg:h-[70vh] h-[50vh] lg:w-[80vw] w-[90vw]" alt=''/>
      </div>
     </div>
 
