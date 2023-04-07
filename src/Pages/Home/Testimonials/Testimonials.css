@@ -1,0 +1,16 @@
+.slick-slide > div{
+    margin: 0 10px;
+}
+.slick-list{
+    margin: 0 -10px;
+}
+.slickgap{
+  width: 80%;
+  margin: 0 auto;
+}
+.slick-prev:before {
+    color:green;
+  }
+  .slick-next:before {
+    color:green;
+  }
