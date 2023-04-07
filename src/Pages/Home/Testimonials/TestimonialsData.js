@@ -1,39 +1,39 @@
 export const testimonialsData = [
     {
         "id": 1,
-        "img": "https://static.vecteezy.com/system/resources/thumbnails/003/377/380/small/line-icon-for-web-develop-vector.jpg",
-        "title": "Website Development",
-        "des":"Our creative and talented team of designers as well as skilled technical developers will build your site to order. We have experience creating web..."
+        "img": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg",
+        "title": "John Abrar",
+        "des":"Great, super quick delivery, great service, attention to detail and very helpful staff. Thank you very much."
     },
     {
         "id": 2,
-        "img": "https://5.imimg.com/data5/SELLER/Default/2020/12/CT/WV/OQ/14451333/mobile-application-development-250x250.jpg",
-        "title": "App Development",
-        "des":"Our creative and talented team of designers as well as skilled technical developers will build your site to order. We have experience creating web..."
+        "img": "https://i.ibb.co/tJsG2Pv/IMG-20220618-212713-995.jpg",
+        "title": "Fahim Rimon",
+        "des":"Fresh product, super quick delivery, grat service, attention to detail and very helpful staff. Thank you!"
     },
     {
         "id": 3,
-        "img": "https://www.bdstall.com/asset/product-image/giant_181666.jpg",
-        "title": "E-commerce Web Development",
-        "des":"Our creative and talented team of designers as well as skilled technical developers will build your site to order. We have experience creating web..."
+        "img": "https://media.istockphoto.com/id/1270067126/photo/smiling-indian-man-looking-at-camera.jpg?s=612x612&w=0&k=20&c=ovIQ5GPurLd3mOUj82jB9v-bjGZ8updgy1ACaHMeEC0=",
+        "title": "Devit lane",
+        "des":"Great, super quick delivery, great service, attention to detail and very helpful staff. Thank you very much."
     },
     {
         "id": 4,
-        "img": "https://static.thenounproject.com/png/3905512-200.png",
-        "title": "Backend Development",
-        "des":"Our creative and talented team of designers as well as skilled technical developers will build your site to order. We have experience creating web..."
+        "img": "https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=612x612&w=0&k=20&c=NtM9Wbs1DBiGaiowsxJY6wNCnLf0POa65rYEwnZymrM=",
+        "title": "Miller Rog",
+        "des":"Fresh product, super quick delivery, grat service, attention to detail and very helpful staff. Thank you!"
     },
     {
         "id": 5,
-        "img": "https://proso.ai/wp-content/uploads/2022/06/ui-and-ux.jpg",
-        "title": "UI/UX Design",
-        "des":"Let us translate your concept into a great user experience and highly usable user interface, whether it’s a..."
+        "img": "https://media.istockphoto.com/id/1183038846/photo/theres-a-reason-im-still-standing.jpg?s=612x612&w=0&k=20&c=ggMjWlWBEuJXmtlL9dz34nidAykmdgVVl_EC4PYdwKA=",
+        "title": "Oscar morzen",
+        "des":"Great, super quick delivery, great service, attention to detail and very helpful staff. Thank you very much."
     },
     {
         "id": 6,
-        "img": "https://static.timesofisrael.com/www/uploads/2019/12/iStock-1029035836-e1575983057612.jpg",
-        "title": "Artificial Intelligence",
-        "des":"Last month CALP ran a poll on its LinkedIn channel to find out exactly how our followers were using artificial intelligence tools like Chat GPT for..."
+        "img": "https://images.everydayhealth.com/images/mens-health/6-skincare-tips-men-should-always-follow-peter-kraus-00-722x406.jpg",
+        "title": "Heriken krics",
+        "des":"Fresh product, super quick delivery, grat service, attention to detail and very helpful staff. Thank you!"
     }
    
 ]

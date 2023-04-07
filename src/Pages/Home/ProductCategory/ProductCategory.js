@@ -37,7 +37,7 @@ function ProductCategory() {
                           <p className='text-xl'>৳ <span className='text-sm'>{item.price}</span></p>
      
                           <div className="card-actions justify-end">
-                          <button className="py-1 px-2 text-sm bg-green-500 hover:bg-black hover:text-white rounded-none border-none -mt-6 -mb-5 rounded">Book Now</button>
+                          <button className="py-1 px-2 text-sm bg-green-500 hover:bg-black hover:text-white rounded-none border-none -mt-6 -mb-5 rounded">Shop Now</button>
                   </div>
                 </div>
                </div>
