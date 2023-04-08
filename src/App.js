@@ -10,7 +10,7 @@ function App() {
     AOS.init();
   },[])
   return (
-    <div className='overflow-y-hidden'>
+    <div className='overflow-y-hidden overflow-x-hidden'>
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

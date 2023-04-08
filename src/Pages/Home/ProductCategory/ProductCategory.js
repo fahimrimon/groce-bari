@@ -31,7 +31,7 @@ function ProductCategory() {
                     {data.map((item) =>{
                          return(
                           <>
-                          <div key={item.id} className="card card-side bg-base-100 border  border-light rounded-sm ">
+                          <div key={item.id} className="card lg:card-side bg-base-100 border  border-light rounded-sm ">
                           <figure className=' w-36 p-2'><img className='transition duration-700 hover:scale-95 w-32 h-32' src={item.img} alt="img" /></figure>
                           <div className="card-body">
                             <h2 className="text-xl font-serif hover:text-lime-500">{item.title}</h2>

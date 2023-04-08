@@ -5,7 +5,7 @@ function Book({item}) {
     return (
         <div>
          
-            <div className="card card-side bg-base-100 border  border-light rounded-sm "  style={{backgroundColor: 'white'}}    onMouseEnter={e => {
+            <div className="card lg:card-side bg-base-100 border  border-light rounded-sm "  style={{backgroundColor: 'white'}}    onMouseEnter={e => {
                      setStyle({display: 'block'});
                  }}
                  onMouseLeave={e => {
