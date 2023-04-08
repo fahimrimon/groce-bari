@@ -39,7 +39,7 @@ function AboutUs() {
             <div className="card-body border-2 border-green-500">
             <div className='flex justify-between items-center space-x-6'>
                <div className=''>
-               <img className='h-20 w-20' src={item.img} alt=''/>
+               <img className='h-16 w-16' src={item.img} alt=''/>
                </div>
                <div>
                <h2 className="card-title">{item.title}</h2>

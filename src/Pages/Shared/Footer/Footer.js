@@ -23,7 +23,7 @@ function Footer() {
       </div>
 
       <div className='bg-gray-900'>
-      <footer className="footer px-4 lg:px-52 pt-28 pb-16 text-white">
+      <footer className="footer px-4 lg:px-52 px-44 pt-28 pb-16 text-white">
   <div>
   <Link to='/' className="normal-case text-white text-2xl pb-4">groce<span className='text-green-500'>Bari</span></Link>
   <div className="grid grid-flow-col gap-4">
