@@ -24,7 +24,7 @@ function Banner() {
 
     <div className=' mx-8 lg:w-4/6 mx-auto mt-[-50px] relative z-20'>
     <div className='lg:flex lg:space-x-4'>
-    <div className="offerTab1 h-[220px] bg-base-200 rounded-xl lg:w-3/6">
+    <div className="offerTab1 h-[220px] bg-base-200 rounded-xl lg:w-3/6 mx-6 lg:mx-0">
         <div className="px-8 pt-6 pb-4">
         <div className='font-hairline'>
         <p className='font-mono font-semibold text-red-500'>Super Offer</p>
@@ -36,7 +36,7 @@ function Banner() {
      </div>
     </div>
 
-    <div className="offerTab2 h-[220px] bg-base-200 rounded-xl lg:w-3/6 mt-3 lg:mt-0">
+    <div className="offerTab2 h-[220px] bg-base-200 rounded-xl lg:w-3/6 mt-3 lg:mt-0 mx-6 lg:mx-0">
         <div className="px-8 pt-6 pb-4">
         <div className='font-hairline'>
         <p className='font-mono font-semibold text-red-500'>Limited Time Offer</p>
