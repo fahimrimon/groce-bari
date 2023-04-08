@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { productsData } from './ProductsData'
-import { AiOutlineArrowDown } from 'react-icons/ai';
+import { AiOutlineArrowDown, AiOutlineArrowRight } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 function ProductCategory() {
   const [data, setData] = useState(productsData);
   const filterProducts = (catItem) =>{
@@ -25,7 +26,7 @@ function ProductCategory() {
                    <li className='hover:text-lime-500'><button onClick={()=> setData(productsData)}>All</button></li>
                    </ul>
                   </div>
-                   <div className='grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 my-20 gap-x-8 gap-y-8'>
+                   <div className='grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 mt-20 mb-8 gap-x-8 gap-y-8'>
                     
                     {data.map((item) =>{
                          return(
@@ -43,8 +44,9 @@ function ProductCategory() {
                </div>
                           </>
                          )
-                    })};
+                    })}
                 </div>
+                <Link to='' className='flex items-center justify-end text-red-500 hover:text-green-500'>See More <span className='ml-1'><AiOutlineArrowRight /></span></Link>
         </div>
   )
 }

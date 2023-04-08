@@ -5,8 +5,8 @@ function Footer() {
   let date = new Date();
   const year = date.getFullYear();
   return (
-    <div>
-      <div className='mx-8 lg:w-3/6 mb-[-50px] relative z-20 mx-auto mt-20'>
+    <div className='mt-24'>
+      <div className='mx-8 lg:w-3/6 mb-[-50px] relative z-20 mx-auto'>
       <div className="h-[220px] bg-neutral-50 shadow-xl text-black text-center rounded-xl">
         <div className="px-8 pt-6 pb-4">
         <div className='font-hairline'>
@@ -34,7 +34,7 @@ function Footer() {
   </div> 
   <div>
     <span className="footer-title">Informations</span> 
-    <a href="/" className="link link-hover">About Us</a> 
+    <a href="/about" className="link link-hover">About Us</a> 
     <a href="/" className="link link-hover">Contact Us</a> 
     <a href="/" className="link link-hover">Our Store</a> 
   </div> 
@@ -46,7 +46,7 @@ function Footer() {
   </div> 
   <div>
     <span className="footer-title">Company</span> 
-    <a href="/" className="link link-hover">About</a> 
+    <a href="/about" className="link link-hover">About</a> 
     <a href="/" className="link link-hover">Terms of use</a> 
     <a href="/" className="link link-hover">Privacy policy</a>
   </div>

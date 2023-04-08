@@ -1,5 +1,6 @@
 import Main from "../../Layout/Main";
 import Booking from "../../Pages/Booking/Booking";
+import AboutUs from "../../Pages/Home/AboutUs/AboutUs";
 import Home from "../../Pages/Home/Home/Home";
 import ProductCategory from "../../Pages/Home/ProductCategory/ProductCategory";
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
         {
           path:'/booking',
           element:<Booking></Booking>
+        },
+        {
+          path:'/about',
+          element:<AboutUs></AboutUs>
         }
       ]
     }
