@@ -5,8 +5,25 @@ function Footer() {
   let date = new Date();
   const year = date.getFullYear();
   return (
-    <div className='mt-20 bg-gray-900'>
-      <footer className="footer px-4 lg:px-52 pt-12 pb-16 text-white">
+    <div>
+      <div className='mx-8 lg:w-3/6 mb-[-50px] relative z-20 mx-auto mt-20'>
+      <div className="h-[220px] bg-neutral-50 shadow-xl text-black text-center rounded-xl">
+        <div className="px-8 pt-6 pb-4">
+        <div className='font-hairline'>
+      <h3 className="text-3xl font-semibold font-serif pt-px pb-4">Get Special Discounts!
+      </h3>
+      <p className='text-base pb-7'>Input email eddress and complete your subcription <br/> to get our special offer.</p>
+      <div className='relative flex items-center justify-center'>
+      <input type="text" placeholder="Type here" className="input w-full max-w-xs border-2 border-black rounded-full" />
+      <button className='bg-orange-500 text-white rounded-full py-2 px-4 absolute flex ml-52'>Subscribe</button>
+      </div>
+      </div>
+     </div>
+    </div>
+      </div>
+
+      <div className='bg-gray-900'>
+      <footer className="footer px-4 lg:px-52 pt-28 pb-16 text-white">
   <div>
   <Link to='/' className="normal-case text-white text-2xl pb-4">groce<span className='text-green-500'>Bari</span></Link>
   <div className="grid grid-flow-col gap-4">
@@ -38,6 +55,7 @@ function Footer() {
 <div className='bg-white h-px mx-4 lg:mx-40'></div>
 <h2 className='text-center mt-4 text-white '>Copyright © {year}, Developed by Fahim Rimon</h2>
 </div>
+    </div>
     </div>
   )
 }
