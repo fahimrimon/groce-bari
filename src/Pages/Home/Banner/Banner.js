@@ -40,7 +40,7 @@ function Banner() {
         <div className="px-8 pt-6 pb-4">
         <div className='font-hairline'>
         <p className='font-mono font-semibold text-red-500'>Limited Time Offer</p>
-      <h3 className="text-2xl font-semibold font-sans text-white pt-px pb-8">Organic Foods Up <br/> To 50% Off
+      <h3 className="text-2xl font-semibold font-sans text-white pt-px pb-8">Organic Foods Up <br/> To 40% Off
       </h3>
       <button className="bg-green-500 text-white rounded-md py-1 px-4">Explore</button>
     </div>
