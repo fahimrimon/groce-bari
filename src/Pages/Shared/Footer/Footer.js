@@ -46,7 +46,7 @@ function Footer() {
   </div> 
   <div>
     <span className="footer-title">Company</span> 
-    <a href="/about" className="link link-hover">About</a> 
+    <a href="https://www.linkedin.com/in/fahim-rimon/" className="link link-hover">About</a> 
     <a href="/" className="link link-hover">Terms of use</a> 
     <a href="/" className="link link-hover">Privacy policy</a>
   </div>
